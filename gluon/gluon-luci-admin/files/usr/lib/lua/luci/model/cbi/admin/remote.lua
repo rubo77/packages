@@ -54,7 +54,7 @@ if fs.access("/etc/config/dropbear") then
 end
 
 s = m:section(TypedSection, "_pass", nil,
-  "Alternativ kannst du auch ein Passwort setzen. Wähle bitte ein sicheres Passwort, das du nirgendswo anders verwendest.")
+  "Alternativ kannst du auch ein Passwort setzen. Wähle unbedingt ein sicheres Passwort mit mindestens 12 Buchstaben und Zahlen, das du nirgendswo anders verwendest.")
 
 s.addremove = false
 s.anonymous = true
