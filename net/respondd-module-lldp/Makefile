@@ -12,7 +12,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/respondd-module-lldp
   SECTION:=gluon
   CATEGORY:=Gluon
-  TITLE:=Add lldp to respondd
+  TITLE:=adds lldp usage neighbours provider to respondd
   DEPENDS:=+respondd +lldpd
 endef
 
